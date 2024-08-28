@@ -10,7 +10,7 @@ function App() {
     <img src={cube} alt="image-cube" className='p-10' />
     <h2 className='px-10 text-2xl font-semibold hover:text-[#1df3f4] text-white  hover:cursor-pointer mb-4'>Equilibrium #3429</h2>
     <p className='px-10 text-lg text-gray-400'>Our Equilibrium Collection promotes balance and calm</p>
-    <div className='flex flex-wrap space-x-24'>
+    <div className='flex flex-wrap  space-x-1 sm:space-x-24'>
       <div className='px-10 mt-4 mb-4 flex flex-row items-center gap-2 text-[#1df3f4] font-semibold'>
         <img src={eth} alt="ethereum" className='' /> 0.041ETH
       </div>
